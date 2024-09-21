@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <style>
+      /* header{
+    background-image: url("photo/backgroundf.png");
+    background-size: 1200px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    border-left: #ff0000 500px;
+} */
+
+
+ .navbackground img{
+    position: fixed;
+    margin-top: -60px;
+    height: 812px;
+    width: 340px;   
+ }  
+
+ .fb img {
+    position: fixed;
+    float: left;
+    margin-top: 600px;
+    margin-left: 49px;
+    width: 56px;
+    height: auto;
+}
+.twitter img {
+    position: fixed;
+    float: left;
+    margin-top: 600px;
+    margin-left: 110px;
+    width: 48px;
+    height: auto;
+}
+.insta img {
+    position: fixed;
+    float: left;
+    margin-top: 600px;
+    margin-left: 167px;
+    width: 49px;
+    height: auto;
+}
+.yt img {
+    position: fixed;
+    float: left;
+    margin-top: 600px;
+    margin-left: 220px;
+    width: 55px;
+    height: auto;
+}
+
+
+.logo img{
+    position: fixed;
+    float: left;
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 200px;
+    height: auto;
+}
+
+
+
+
+
+
+    
+
+ul{
+    font-family: Georgia, serif;
+    list-style-type: none;
+    font-size: 50px;
+    position: fixed;
+    top: 180px;
+    left: 80px;
+    text-align: center;
+}
+ul li a{
+
+    text-decoration: none;
+    color: #000000;
+}
+ul li a p{
+    margin: 25px;
+    font-size: 80%;
+    color: white;
+}
+
+.shop{
+    height: 50px;
+    width: 210px;
+    background-color: rgb(253, 93, 194);
+    border-radius: 50px;
+    margin-left: -10spx;
+    
+} 
+/* .searchh input{
+    position: fixed;
+    float: left;
+    margin-top: 180px;
+    margin-left: 48px;
+    width: 20px;
+    height: 30px;
+    background-color: rgb(251, 204, 232);
+    border-color: rgb(255, 114, 137);
+    border-right: 20px;
+} */
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbackground"><img src="photo/flower.jpg"></div>
+
+        <!-- social media icon -->
+        <div class="fb"> <a href="https://www.facebook.com/" target="_main"> <img src="photo/fb.png"> </a></div>
+        <div class="twitter"> <a href="https://www.twitter.com/" target="_main"> <img src="photo/twitter.png"> </a>
+        </div>
+        <div class="insta"> <a href="https://www.instagram.com/" target="_main"> <img src="photo/insta.png"> </a></div>
+        <div class="yt"> <a href="https://www.youtube.com/" target="_main"> <img src="photo/yt.png"> </a></div>
+
+
+        <div class="logo"> <img src="photo/logooo.png"> </div>
+
+        <!-- <div class="searchh"><input type="text" placeholder="Search.."></div> -->
+       
+        <div class="menu">
+
+            <ul>
+                <li> <a href="index.html"> Home </a></li>
+                <li> <a href="#"> Product </a></li>
+                <li> <a href="#"> Shop </a></li>
+                <li> <a href="#"> About </a></li>
+                <li> <a href="#"> Contact </a></li>
+                <li class="shop"> <a href="#">
+                        <P> Shop</P>
+                    </a></li>
+
+            </ul>
+
+        </div>
+    </header>
+        <!-- .......................................................... -->
+    
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    h2 {
+      color: rgb(253, 93, 194);
+    }
+    
+
+    form {
+      width: 400px;
+      margin: 0 auto;
+      margin-top: -600px;
+      margin-left: 630px;
+    }
+    
+    label {
+      display: block;
+      margin-top: 10px;
+      color: white;
+    }
+    
+    input[type="text"],
+    input[type="tel"],
+    input[type="password"],
+    textarea {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+    input[type="submit"] {
+      background-color: rgb(253, 93, 194);
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #ff6ec7;
+    }
+
+    h2{
+      position: relative;
+    top: -600px;
+    margin-left: 150px;
+    text-align: center;
+    font-size: 70px;
+    color: rgb(253, 93, 194);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+    .space{
+      margin-top: 40px;
+    }
+    
+
+
+  </style>
+ 
+<span class="reg"><h2>Sign up</h2></span>
+
+<div class="regis">
+  <!-- action="submit_form.php" method="POST" -->
+  
+  <form action="register.php" method="POST">
+    <label for="first_name">First Name:</label>
+    <input type="text" id="first_name" name="firstName" required><br><br>
+    
+    <label for="last_name">Last Name:</label>
+    <input type="text" id="last_name" name="lastName" required><br><br>
+    
+    <label for="phone_number">Phone Number:</label>
+    <input type="tel" id="phone_number" name="phoneNumber" required><br><br>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+    
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" required></textarea><br><br>
+    
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
+
+
+        <!-- .......................................................... -->
+        <footer>
+          <div class="space"> </div>
+          <div> <p>"We are one of the best online <br> &nbsp&nbsp&nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp platform to deliver chocolate." </p> </div>
+      
+          <div class="flogo"> <img src="photo/logo2.png" alt=""></div>
+      
+          <div><h3>Our Partners</h3> </div>
+          
+          <div class="p1"> <img src="photo/achs.png" alt=""></div>
+          <div class="p2"> <img src="photo/ach.png" alt=""></div>
+          <div class="p3"> <img src="photo/tu.png" alt=""></div>
+           
+          <div class="flocation">
+                  <p> Address: Balaju-16, Kathmandu, Nepal <br>
+                      e-mail: sujalchoco@gmail.com <br>
+                      Contact: +977-01458792 <br>
+                      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp +977-9803124578<br>
+                      </p>
+                 
+          </div>            
+      
+      
+          
+      <div class="vl"></div>
+      
+      
+      
+      </footer>
+
+    
+</body>
+</html>

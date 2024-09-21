@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        #game-container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  border: 1px solid #ccc;
+}
+
+#target {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+h1, p {
+  text-align: center;
+}
+
+
+    </style>
+<head>
+  <title>Target Game</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Target Game</h1>
+  <p>Score: <span id="score">0</span></p>
+  <p>Time: <span id="time">30</span> seconds</p>
+  <div id="game-container">
+    <div id="target"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+<script>
+var score = 0;
+var time = 30;
+
+function startGame() {
+  var target = document.getElementById('target');
+  target.addEventListener('click', hitTarget);
+
+  countdown();
+  moveTarget();
+}
+
+function hitTarget() {
+  score++;
+  document.getElementById('score').innerText = score;
+}
+
+function moveTarget() {
+  var gameContainer = document.getElementById('game-container');
+  var target = document.getElementById('target');
+
+  var containerWidth = gameContainer.offsetWidth;
+  var containerHeight = gameContainer.offsetHeight;
+
+  var targetWidth = target.offsetWidth;
+  var targetHeight = target.offsetHeight;
+
+  var maxLeft = containerWidth - targetWidth;
+  var maxTop = containerHeight - targetHeight;
+
+  var randomLeft = Math.floor(Math.random() * maxLeft);
+  var randomTop = Math.floor(Math.random() * maxTop);
+
+  target.style.left = randomLeft + 'px';
+  target.style.top = randomTop + 'px';
+
+  setTimeout(moveTarget, 1000);
+}
+
+function countdown() {
+  var timeElement = document.getElementById('time');
+  timeElement.innerText = time;
+
+  if (time > 0) {
+    time--;
+    setTimeout(countdown, 1000);
+  } else {
+    endGame();
+  }
+}
+
+function endGame() {
+  var target = document.getElementById('target');
+  target.removeEventListener('click', hitTarget);
+
+  alert('Game over! Your score is: ' + score);
+}
+
+startGame();
+</script>
+</html>
+

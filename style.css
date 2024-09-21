@@ -1,0 +1,605 @@
+
+
+ *{
+    margin: 0;
+    padding: 0;
+
+ }
+header{
+    background-image: url("photo/backgroundf.png");
+    background-size: 1200px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    border-left: #ff0000 500px;
+}
+
+
+ .navbackground img{
+    position: fixed;
+    height: 753px;
+    width: 320px;   
+ }  
+
+ .fb img {
+    position: fixed;
+    float: left;
+    margin-top: 640px;
+    margin-left: 49px;
+    width: 56px;
+    height: auto;
+}
+.twitter img {
+    position: fixed;
+    float: left;
+    margin-top: 644px;
+    margin-left: 110px;
+    width: 48px;
+    height: auto;
+}
+.insta img {
+    position: fixed;
+    float: left;
+    margin-top: 644px;
+    margin-left: 167px;
+    width: 49px;
+    height: auto;
+}
+.yt img {
+    position: fixed;
+    float: left;
+    margin-top: 642px;
+    margin-left: 220px;
+    width: 55px;
+    height: auto;
+}
+
+
+.logo img{
+    position: fixed;
+    float: left;
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 200px;
+    height: auto;
+}
+.logo2 img{
+    position: absolute;
+    float: left;
+    margin-top: -50px;
+    margin-left: 786px;
+    width: 200px;
+    height: auto;
+}
+
+.search input{
+    position: fixed;
+    float: left;
+    margin-top: 180px;
+    margin-left: 48px;
+    width: 220px;
+    height: 30px;
+    background-color: rgb(251, 204, 232);
+    border-color: rgb(255, 114, 137);
+    
+}
+
+/* .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 79.1%;
+    height: 95.5%;
+    background: rgba(0, 0, 0, 0.75);
+
+} */
+
+
+
+
+.best h1{
+    position: relative;
+    top: 200px;
+    margin-left: 337px;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .address {
+    position: relative;
+   top: 200px;
+   margin-left: 750px;
+   color: white;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 30px;
+
+} 
+
+.shopp {
+    position: relative;
+    margin-left: 812px;
+    color: white;
+    font-size: 30px;
+    top: 244px;
+    background-color: rgb(253, 93, 194);
+    width: 150px;
+    text-align: center;
+    border-radius: 50px;
+    height: 40px;
+    text-decoration: none;
+   
+}
+
+    
+
+ul{
+    font-family: Georgia, serif;
+    list-style-type: none;
+    font-size: 50px;
+    position: fixed;
+    top: 230px;
+    left: 70px;
+    text-align: center;
+}
+ul li a{
+
+    text-decoration: none;
+    color: #000000;
+}
+ul li a p{
+    margin: 25px;
+    font-size: 80%;
+    color: white;
+}
+
+.shop{
+    height: 50px;
+    width: 210px;
+    background-color: rgb(253, 93, 194);
+    border-radius: 50px;
+    margin-left: -15px;
+    
+} 
+
+.login{
+    position: fixed;
+    float: right;
+    height: 25px;
+    width: 90px;
+    background-color: rgb(253, 93, 194);
+    border-radius: 50px;
+    right: 150px;
+    top: 20px;
+    
+}
+.login p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.register{
+    position: fixed;
+    float: right;
+    height: 25px;
+    width: 90px;
+    background-color: rgb(253, 93, 194);
+    border-radius: 50px;
+    right: 50px;
+    top: 20px;
+}
+.register p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+/* img {
+    transition: transform ease 0.3s;
+} */
+
+/* img:hover{
+    transform: scale(1.2);
+} */
+.choco1 {
+    position: relative;
+    width: 20%;
+    height: 280px;
+    margin-left: 390px;
+    top: 345px;
+    background-color: hsla(0, 0%, 100%, 0.97);
+    border: solid;
+    border-color: rgb(255, 4, 159);
+}
+
+
+.choco1 img{
+    position: relative;
+    height: 210px;
+    left: -16px;
+
+}
+.choco1 h2{
+    color: rgb(0, 8, 255);
+    text-align: center;
+    font-family: math;
+    
+}
+
+.choco2 {
+    position: relative;
+    width: 20%;
+    height: 280px;
+    margin-left: 772px;
+    top: 60.5px;
+    background-color: hsla(0, 0%, 100%, 0.97);
+    border: solid;
+    border-color: rgb(255, 4, 159);
+}
+
+.choco2 img{
+    position: relative;
+    height: 210px;
+    left: -16px;
+}
+.choco2 h2{
+    color: rgb(0, 8, 255);
+    text-align: center;
+    font-family: math;  
+}
+
+.choco3 {
+    position: relative;
+    width: 20%;
+    height: 280px;
+    margin-left: 1153px;
+    top: -221.5px;
+    background-color: hsla(0, 0%, 100%, 0.97);
+    border: solid;
+    border-color: rgb(255, 4, 159);
+}
+
+.choco3 img{
+    position: relative;
+    height: 210px;
+    left: -16px;
+}
+.choco3 h2{
+    color: rgb(0, 8, 255);
+    text-align: center;
+    font-family: math;  
+}
+
+
+/* .................................................................................. */
+
+
+
+.cho1 {
+    position: relative;
+    width: 20%;
+    height: 280px;
+    margin-left: 390px;
+    top: 345px;
+    background-color: hsla(0, 0%, 100%, 0.97);
+    border: solid;
+    border-color: rgb(255, 4, 159);
+}
+
+.cho1 img{
+    position: relative;
+    height: 140px;
+    left: -16px;
+
+}
+.cho1 h2{
+    color: rgb(0, 8, 255);
+    text-align: center;
+    font-family: math;
+    
+}
+
+.cho2 {
+    position: relative;
+    width: 20%;
+    height: 280px;
+    margin-left: 772px;
+    top: 60.5px;
+    background-color: hsla(0, 0%, 100%, 0.97);
+    border: solid;
+    border-color: rgb(255, 4, 159);
+}
+
+.cho2 img{
+    position: relative;
+    height: 180px;
+    left: 3px;
+}
+.cho2 h2{
+    color: rgb(0, 8, 255);
+    text-align: center;
+    font-family: math;  
+}
+
+.cho3 {
+    position: relative;
+    width: 20%;
+    height: 280px;
+    margin-left: 1153px;
+    top: -221.5px;
+    background-color: hsla(0, 0%, 100%, 0.97);
+    border: solid;
+    border-color: rgb(255, 4, 159);
+}
+
+.cho3 img{
+    position: relative;
+    height: 210px;
+    left: 20px;
+}
+.cho3 h2{
+    color: rgb(0, 8, 255);
+    text-align: center;
+    font-family: math;  
+}
+
+/* .................................................................................. */
+
+.ch1 {
+    position: relative;
+    width: 20%;
+    height: 280px;
+    margin-left: 390px;
+    top: -96px;
+    background-color: hsla(0, 0%, 100%, 0.97);
+    border: solid;
+    border-color: rgb(255, 4, 159);
+}
+
+.ch1 img{
+    position: relative;
+    height: 210px;
+    left: -16px;
+
+}
+.ch1 h2{
+    color: rgb(0, 8, 255);
+    text-align: center;
+    font-family: math;
+    
+}
+
+.ch2 {
+    position: relative;
+    width: 20%;
+    height: 280px;
+    margin-left: 772px;
+    top: -380.5px;
+    background-color: hsla(0, 0%, 100%, 0.97);
+    border: solid;
+    border-color: rgb(255, 4, 159);
+}
+
+.ch2 img{
+    position: relative;
+    height: 210px;
+    left: -16px;
+}
+.ch2 h2{
+    color: rgb(0, 8, 255);
+    text-align: center;
+    font-family: math;  
+}
+
+.ch3 {
+    position: relative;
+    width: 20%;
+    height: 280px;
+    margin-left: 1153px;
+    top: -665.5px;
+    background-color: hsla(0, 0%, 100%, 0.97);
+    border: solid;
+    border-color: rgb(255, 4, 159);
+}
+
+.ch3 img{
+    position: relative;
+    height: 210px;
+    left: -16px;
+}
+.ch3 h2{
+    color: rgb(0, 8, 255);
+    text-align: center;
+    font-family: math;  
+}
+
+.container3 {
+
+    height: 250px;
+
+
+}
+
+.flogo img{
+    width: 120px;
+    position: absolute;
+    left: 64%;
+    margin-top: 40px;
+
+}
+/* footer h4{
+    font-size: 29px;
+    color: white;
+    height: 100px;
+    position: absolute;
+    left: 27.5%;
+    margin-top: 30px;
+
+} */
+
+footer p{
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    height: 100px;
+    position: absolute;
+    left: 27.5%;
+    margin-top: 40px;
+
+}
+
+    
+.vl {
+    border-left: 4px solid white;
+    height: 200px;
+    position: absolute;
+    left: 59%;
+    margin-top: 50px;
+
+}
+
+footer .p1 img {
+    height: 80px;
+    position: absolute;
+    left: 27%;
+    margin-top: 163px;
+}
+footer .p2 img {
+    height: 80px;
+    position: absolute;
+    left: 42%;
+    margin-top: 163px;
+  
+}
+footer .p3 img {
+    height: 80px;
+    position: absolute;
+    left: 49%;
+    margin-top: 163px;
+  
+}
+
+footer h3{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    left: 27.5%;
+    margin-top: 115px;
+
+
+}
+
+.flocation p {
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    height: 100px;
+    position: absolute;
+    left: 65%;
+    margin-top: 120px;
+
+
+}
+
+footer{
+
+    height: 300px;
+    background-color:rgb(253, 93, 194) ;
+    cursor: default;
+
+}
+
+
+/* .................................................................................. */
+
+
+
+
+
+
+
+/* 
+.chocolate img{
+    position: relative;
+    width: 20%;
+    height: 200px;
+    margin: -280px;
+    margin-left: 367px;
+    margin-top: 437px; 
+    background-color: #ffffff;
+    border: solid;
+    border-radius: 10px;
+    margin-top: 15%;
+
+
+}
+
+.chocofun{
+    color: #ff00ae;
+    position: relative;
+    margin-top: 275px;
+    margin-left: 367px;
+    margin-right: 843px;
+    text-align: center;
+    border-left: solid;
+    border-bottom: solid;
+    border-right: solid;
+    border-color: black;
+    padding: 10px;
+
+
+}
+
+
+/* .hovertext {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 369px;
+    background: rgb(0, 0, 0);
+    opacity: .8;
+    width: 305px;
+    height: 257px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    visibility: hidden;
+
+
+}
+.container:hover .hovertext{
+    visibility: visible;
+}
+
+.chocoroll {
+    color: #ff00ae;
+    text-align: center;
+    position: relative;
+    top: -59px;
+    margin-right: 1210px;
+    right: -766px;
+    padding: 10px;
+    border-left: solid;
+    border-bottom: solid;
+    border-right: solid;
+    border-color: black;
+}  */
+
+
+
+
+
+/* for login page  */
+
+
+
+
+
+
+
+
+
+

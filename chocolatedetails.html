@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: hotpink; /* Set the background color to hot pink */
+        }
+
+        .chocolate-details {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .chocolate-image {
+            max-width: 150px; /* Set the maximum width for the chocolate image */
+            height: auto;
+        }
+
+        .description {
+            margin-top: 20px;
+        }
+
+        table {
+            width: 80%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+        *.chocolate-image img{
+            height: 200px;
+            margin-left: -80px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="chocolate-details">
+        <h1 style="color: hotpink;">Chocolate Details</h1> <!-- Set the heading color to hot pink -->
+        <div class="chocolate-image">
+            <img src="photo/choco1.png" alt="Chocolate Image"> <!-- Replace with your smaller chocolate image -->
+        </div>
+        <div class="description">
+            <p>This delicious chocolate is made from the finest cocoa beans, resulting in a rich and creamy flavor that you'll love. It's perfect for satisfying your sweet tooth cravings.</p>
+        </div>
+        <table>
+            <tr>
+                <th>Attribute</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td>Chocolate Weight</td>
+                <td>100g</td>
+            </tr>
+            <tr>
+                <td>Fat</td>
+                <td>15g</td>
+            </tr>
+            <tr>
+                <td>Nutrition Values</td>
+                <td>See label for details</td>
+            </tr>
+            <tr>
+                <td>Energy (kcal)</td>
+                <td>500 kcal</td>
+            </tr>
+            <tr>
+                <td>Protein (g)</td>
+                <td>5g</td>
+            </tr>
+            <!-- Add more attributes and values as needed -->
+        </table>
+    </div>
+</body>
+</html>
